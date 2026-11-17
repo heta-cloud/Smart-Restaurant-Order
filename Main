@@ -1,0 +1,37 @@
+cd C:\Users\HP 2025\OneDrive\Documents\NetBeansProjects\Main; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+-------------------------< com.mycompany:Main >-------------------------
+Building Main 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ Main ---
+skip non existing resourceDirectory C:\Users\HP 2025\OneDrive\Documents\NetBeansProjects\Main\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ Main ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug release 26] to target\classes
+
+--- exec:3.6.3:exec (default-cli) @ Main ---
+Enter customer name: tarteel
+Enter customer age: 21
+Enter meal price: 23
+Enter number of drinks: 5
+Is the customer a student (true/false)? true
+Enter service rating (1-5): 3
+
+===== SMART RESTAURANT =====
+Customer: tarteel
+Meal: $23.00
+Drinks: $77.50
+Discount: $10.05
+Tip: $0.00
+Final bill: $90.45
+Whole amount: $90
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  54.937 s
+Finished at: 2026-11-17T12:05:05+02:00
+------------------------------------------------------------------------
